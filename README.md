@@ -2,9 +2,11 @@
 
 Script gets public Google Calendar JSON output and format it into a human readable list.
 
-### TODO
+### Overview
 
-Make the request URL secret.
+The list represents confirmed events along with additional metadata such as title, start time / time zone, description, location, etc. API supports single events - recurring events are not valid. Max entries: 2000
+
+[API Reference](https://developers.google.com/calendar/api/v3/reference)
 
 ---
 

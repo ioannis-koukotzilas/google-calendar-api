@@ -26,8 +26,8 @@ function scheduleData(object) {
   const scheduleItems = object.items;
 
   // Create the app title
-  const scheduleTitle = document.createElement('div');
-  scheduleTitle.textContent = `The list represents confirmed radio shows along with additional metadata such as title, start time / time zone, description, location, etc. API supports single events - recurring events are not valid. Max entries: 2000`;
+  const scheduleTitle = document.createElement('h1');
+  scheduleTitle.textContent = `Google Calendar API`;
 
   // Create the list that wraps the schedule items
   const scheduleList = document.createElement('ul');
